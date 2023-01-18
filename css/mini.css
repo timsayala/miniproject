@@ -1,0 +1,258 @@
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+
+.container .banner {
+    background-color:#e7e7e7;
+  
+    height: 75vh;
+    width: 100%;
+    border-radius: 15%;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    
+}
+
+.learn{
+
+ font-family: Ubuntu;
+ text-align: left;
+ font-weight: 1000;
+font-size: 100px
+
+ 
+ 
+}
+
+body{
+    margin: 0;
+    padding:0;
+ 
+}
+
+
+button.btn.btn-primary{
+    width:50%;
+  height: 70px;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  position: relative;
+ top: 40px;
+  background-color: #7B506F;
+  border: none;
+  font-weight: bold;
+  font-size: 30px
+}
+
+.carousel.slide{
+
+    width: 100%;
+    margin: 5vh;
+    
+    box-shadow: 5px 5px 20px rgb(187, 183, 183);
+    border-radius: 20px;
+   
+}
+
+div.container.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    
+   
+}
+
+div.container.statement{
+    margin-top:20vh;
+    margin-bottom: 15vh;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  header{
+    background-color:#e7e7e7;
+  
+  }
+
+  img.brand{
+    
+    width: 250px;
+    -webkit-filter: drop-shadow(10px 4px 3px #666666);
+    filter: drop-shadow(10px 10px  10px 10px #666666);
+  }
+
+  .container h2.statement1{
+    color: rgb(68, 38, 38);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+  color: #7B506F;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  word-spacing: 40px;
+  font-size: 20px;
+
+}
+
+.slider-grid{
+  overflow-x: scroll;
+  width: 1000px;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+ul{
+  display: inline-flex;
+ }
+
+.card{
+  width: 300px;
+  padding: 0px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px rgb(187, 183, 183);
+  height: 550px;
+  
+}
+.overflow{
+  white-space: pre-wrap;
+ margin-top: 20px;
+ 
+}
+
+img.card-img-top{
+  height: 200px;
+}
+
+.card-text{
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+.container-fluid.statement3{
+  background-color: #ebebeb;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:white;
+
+}
+h5.card-title{
+  text-align: center;
+  color:#7B506F;
+  font-family: Ubuntu;
+}
+header.header2{
+  background-color: white;
+}
+
+button.btn-link.btn-block.text-left{
+  text-decoration: none;
+  color: black;
+}
+
+.pTitle{
+  font-size: 40px;
+}
+.pCourses{
+  font-size: 15px;
+}
+
+.pSongs{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Ubuntu ;
+  text-shadow: 5px 3px 5px rgb(187, 183, 183);
+  color: #7B506F;
+}
+div.card-body{
+  background-color: #ebe0d6;
+}
+
+td{
+font-family: 'Courier New', Courier, monospace;
+
+}
+.pTitle{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Ubuntu ;
+  text-shadow: 5px 3px 5px rgb(187, 183, 183);
+  color: #7B506F;
+}
+
+.pCourses{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.our{
+  text-align: center;
+}
+.what{
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 5vh;
+  
+  
+}
+
+.fatima{
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  color: #7B506F;
+}
+
+.logo{
+  width: 250px;
+  -webkit-filter: drop-shadow(10px 4px 10px #666666);
+  filter: drop-shadow(10px 10px  10px 10px #666666);
+  margin-bottom: 60px;
+  margin-top: 5vh;
+ 
+
+}
+
+.logo1{
+  text-align: center;
+  font-size: 17px;
+}
+
+.logo1 > h4{
+  color: #7B506F;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label{
+  color: #7B506F;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
