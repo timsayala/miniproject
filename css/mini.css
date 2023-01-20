@@ -266,7 +266,7 @@ label{
 
 /*/hover*/
 .navbar-light .navbar-nav .nav-link:hover{
-  color: #18272F;
+  color: #7B506F;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -280,7 +280,7 @@ label{
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: #18272F;
+  background-color: #7B506F;
   bottom: 0;
   left: 0;
   transform-origin: right;
