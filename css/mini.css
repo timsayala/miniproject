@@ -2,10 +2,12 @@
     justify-content: end;
 }
 
+
+
 .container .banner {
     background-color:#e7e7e7;
   
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     border-radius: 15%;
     justify-content: left;
@@ -156,10 +158,7 @@ img.card-img-top{
 .container-fluid.statement3{
   background-color: #ebebeb;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-  color:white;
 
-}
 h5.card-title{
   text-align: center;
   color:#7B506F;
@@ -254,5 +253,99 @@ label{
   font-size: 17px;
   font-weight: bolder;
   margin-top: 15px;
+}
+
+.hide{
+  display: none;
+}
+
+.hide2{
+  display: none;
+}
+
+
+/*/hover*/
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #18272F;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #18272F;
+  position: relative;
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+  .learn{
+    text-align: center;
+
+  }
+
+/* .overflow{
+  display: flex;
+} */
+.slider-grid{
+  overflow-x: scroll;
+  width: 500px;
+}
+.hide{
+  display: inline-block;
+
+}
+div.col.col-lg-4.col-sm-12{
+  display: contents;
+  justify-content: center;
+
+}
+
+img.logo{
+  justify-content: center;
+  margin:100px;
+  margin-left: 150px;
+}
+p.statement2.col-lg-12{
+  text-align: center;
+  justify-content: center;
+}
+
+button.btn.btn-primary.btnIndex{
+ margin-left: 4.5rem;
+ width: 350px;
+}
+
+  
+}
+
+@media (min-width: 600px) and (max-width: 980px) {
+.hide2{
+  display: inline-block;
+}
+
+
+
+.logo{
+  margin-left: 15rem;
+}
+
 }
 
